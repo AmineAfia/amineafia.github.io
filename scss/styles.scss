@@ -710,6 +710,41 @@ footer {
 
 /*
     -------------------------------
+    ----- 9. languages Styles -----
+    -------------------------------
+*/
+
+#languages {
+    padding: 50px 15px;
+    text-align: center;
+
+    h2 {
+        color: $heading;
+        margin-bottom: 50px;
+    }
+
+    ul {
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+        max-width: 800px;
+    }
+
+    li {
+        display: inline-block;
+        margin: 0px;
+        padding: 5px 12px;
+        color: $heading;
+        background: darken($background-alt, 0%);
+        list-style: none;
+        cursor: default;
+        font-size: 1.4em;
+    }
+}
+
+
+/*
+    -------------------------------
     ----- 10. Contact Styles -----
     -------------------------------
 */
