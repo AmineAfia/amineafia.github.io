@@ -406,23 +406,20 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/scripts.min.js"></script>
 
-<!-- Start of StatCounter Code for Default Guide -->
-<script type="text/javascript">
-var sc_project=11394737; 
-var sc_invisible=1; 
-var sc_security="6aa5d30f"; 
-var scJsHost = (("https:" == document.location.protocol) ?
-"https://secure." : "http://www.");
-document.write("<sc"+"ript type='text/javascript' src='" +
-scJsHost+
-"statcounter.com/counter/counter.js'></"+"script>");
+<script> 
+  window.onload = function() { 
+    setTimeout(function() { 
+      var ad = document.querySelector("ins.adsbygoogle");
+      if (ad && ad.innerHTML.replace(/\s/g, "").length == 0) {
+        if (typeof ga !== 'undefined') {
+            ga('send', 'event', 'Adblock', 'Yes', {'nonInteraction': 1}); 
+        } else if (typeof _gaq !== 'undefined') {
+            _gaq.push(['_trackEvent', 'Adblock', 'Yes', undefined, undefined, true]);
+        }
+      }
+    }, 2000);
+  }; 
 </script>
-<noscript><div class="statcounter"><a title="free hit
-counter" href="http://statcounter.com/" target="_blank"><img
-class="statcounter"
-src="//c.statcounter.com/11394737/0/6aa5d30f/1/" alt="free
-hit counter"></a></div></noscript>
-<!-- End of StatCounter Code for Default Guide -->
 
 </body>
 
@@ -431,10 +428,8 @@ hit counter"></a></div></noscript>
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
   ga('create', 'UA-99103319-1', 'auto');
   ga('send', 'pageview');
-
 </script>
 
 </html>
