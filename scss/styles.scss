@@ -339,6 +339,7 @@ footer {
     background: $background-alt;
 }
 
+
 /*
     --------------------------
     ----- 4. Lead Styles -----
@@ -748,6 +749,7 @@ footer {
 #languages {
     padding: 50px 15px;
     text-align: center;
+    border-bottom: 1px solid $border;
 
     h2 {
         color: $heading;
