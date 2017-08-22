@@ -422,14 +422,22 @@ footer {
         width: 55px;
         height: 55px;
         border-radius: 50%;
-        border: 3px solid lighten(#fff, 50%);
+        border: 0px solid lighten(#fff, 50%);
         text-align:center;
     }
 
     i {
-        animation: pulsate 1.0s ease;
+        animation: pulsate 1.5s ease;
         animation-iteration-count: infinite;
-        padding-top: 15px;
+        padding-top: 0px;
+        font-size: 4em;
+        font-weight: 100;
+        color: lightgray;
+    }
+
+    p {
+        font-size: small;
+        color: gray;
     }
 }
 
