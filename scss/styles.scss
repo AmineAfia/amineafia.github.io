@@ -145,7 +145,7 @@ header {
     left: 0;
     right: 0;
     // text-align: center;
-    z-index: 10;
+    z-index: 0;
     animation-name: dropHeader;
     animation-iteration-count: 1;
     animation-timing-function: ease;
@@ -351,6 +351,7 @@ footer {
     min-height: 500px;
     max-height: 1080px;
     background: url(../images/lead-bg.jpg);
+    // background:#000;
     background-size: cover;
     padding: 15px;
     overflow: hidden;
@@ -395,7 +396,7 @@ footer {
 #lead-overlay {
     position: absolute;
     height: 100%;
-    width: 100%;
+    width: 0%;
     top: 0;
     right: 0;
     bottom: 0;
@@ -421,14 +422,14 @@ footer {
         width: 55px;
         height: 55px;
         border-radius: 50%;
-        border: 3px solid lighten(#fff, 25%);
+        border: 3px solid lighten(#fff, 50%);
         text-align:center;
     }
 
     i {
-        animation: pulsate 1.5s ease;
+        animation: pulsate 1.0s ease;
         animation-iteration-count: infinite;
-        padding-top: 15px;;
+        padding-top: 15px;
     }
 }
 
@@ -883,6 +884,7 @@ footer {
 
         h1 {
             font-size: 3em;
+            margin-bottom: 150px;
         }
 
         h2 {
