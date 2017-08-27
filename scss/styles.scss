@@ -779,7 +779,36 @@ footer {
     li {
         display: inline-block;
         margin: 0px;
-        padding: 5px 12px;
+        padding: 5px 10px;
+        color: $heading;
+        background: darken($background-alt, 0%);
+        list-style: none;
+        cursor: default;
+        font-size: 1.4em;
+    }
+}
+
+#companies {
+    padding: 30px 20px;
+    text-align: center;
+    border-bottom: 1px solid $border;
+
+    h2 {
+        color: $heading;
+        margin-bottom: 50px;
+    }
+
+    ul {
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+        max-width: 95%;
+    }
+
+    li {
+        display: inline-block;
+        margin: 0px;
+        padding: 10px 15px;
         color: $heading;
         background: darken($background-alt, 0%);
         list-style: none;
