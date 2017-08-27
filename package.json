@@ -1,20 +1,21 @@
 {
-  "name": "devportfolio-template",
-  "version": "1.1.3",
-  "description": "",
+  "name": "amine-afia",
+  "version": "0.0.1",
+  "description": "My personal page",
   "main": "js/scripts.js",
   "scripts": {
-    "watch": "gulp watch"
+    "watch": "gulp watch",
+    "start": "node app.js"
   },
   "keywords": [
     "portfolio",
     "personal",
-    "website",
-    "tech",
-    "coding",
-    "dev"
+    "amine",
+    "afia",
+    "amineafia",
+    "cv"
   ],
-  "author": "Ryan Fitzgerald",
+  "author": "Amine Afia",
   "license": "MIT",
   "devDependencies": {
     "gulp": "^3.9.1",
@@ -25,6 +26,7 @@
     "gulp-uglify": "^2.0.0"
   },
   "dependencies": {
+    "express": "^4.15.4",
     "particles.js": "^2.0.0"
   }
 }
