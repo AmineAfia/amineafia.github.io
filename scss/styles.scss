@@ -998,14 +998,16 @@ footer {
     }
 
     #particles-js {
-        position: relative;
-        transform: none;
-        left: auto;
-        top: auto;
+        // position: relative;
+        // transform: none;
+        display: grid;
+        // left: 0;
+        // top: 0;
+
         // width: 50%;
         // height: 50%;
         // background-repeat: no-repeat;
-        background-size: cover;
+        // background-size: cover;
         // background-position: 50% 50%;
     }
 
@@ -1058,14 +1060,16 @@ footer {
 @media only screen and (max-width : 480px) {
 
     #particles-js {
-        position: relative;
-        transform: none;
-        left: auto;
-        top: auto;
+        // position: relative;
+        // transform: none;
+        display: grid;
+        // left: 0;
+        // top: 0;
+
         // width: 50%;
         // height: 50%;
         // background-repeat: no-repeat;
-        background-size: cover;
+        // background-size: cover;
         // background-position: 50% 50%;
     }
 
