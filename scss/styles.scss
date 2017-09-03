@@ -789,7 +789,7 @@ footer {
 }
 
 #companies {
-    padding: 30px 20px;
+    padding: 30px 0px;
     text-align: center;
     border-bottom: 1px solid $border;
 
@@ -808,7 +808,7 @@ footer {
     li {
         display: inline-block;
         margin: 0px;
-        padding: 10px 15px;
+        padding: 20px 30px;
         color: $heading;
         background: darken($background-alt, 0%);
         list-style: none;
