@@ -1,4 +1,4 @@
-# Also on: https://amine-afia-zarighffoj.now.sh
+# Also on: https://amine-afia-ntiyozrfzd.now.sh
 Maybe I'll get my domain name and map the intance to it
 
 # Dev Portfolio Template
