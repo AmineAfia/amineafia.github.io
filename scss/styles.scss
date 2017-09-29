@@ -1013,6 +1013,11 @@ footer {
     }
 
     #lead-content {
+        position: relative;
+        transform: none;
+        left: auto;
+        top: auto;
+
         h1 {
             font-size: 2em;
         }
@@ -1025,6 +1030,7 @@ footer {
             padding: 10px 20px;
         }
     }
+
 
     #lead-down {
         display: none;
@@ -1075,6 +1081,10 @@ footer {
     }
 
     #lead-content {
+        position: relative;
+        transform: none;
+        left: auto;
+        top: auto;
         h1 {
             font-size: 1.5em;
         }
