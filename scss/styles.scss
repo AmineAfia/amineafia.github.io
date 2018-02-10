@@ -487,6 +487,7 @@ footer {
         color: $text;
         margin: 0;
         font-size: 1.1em;
+        text-align: justify;
     }
 }
 
@@ -712,11 +713,19 @@ footer {
         color: $heading;
         margin: 0 0 15px 0;
     }
+    
+    h4 {
+        font-size: 0.9em;
+        margin: -10px 0 10px 0;
+        color: $text;
+        font-weight: 400;
+    }
 
     p {
         color: $text;
-        margin: 0 0 15px 0;
+        margin: 10px 10px 15px 10px;
         font-size: 0.9em;
+        text-align: justify;
     }
 }
 
