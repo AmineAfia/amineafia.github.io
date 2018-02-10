@@ -485,9 +485,16 @@ footer {
 
     p {
         color: $text;
-        margin: 0;
+        margin: 0 0 0 30px;
         font-size: 1.1em;
         text-align: justify;
+    }
+    img {
+        margin-left: 130px;
+    }
+
+    h3 {
+        margin-left: 130px;
     }
 }
 
