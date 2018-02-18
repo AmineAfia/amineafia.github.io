@@ -489,13 +489,13 @@ footer {
         font-size: 1.1em;
         text-align: justify;
     }
-    img {
-        margin-left: 130px;
-    }
+    // img {
+    //     margin-left: 130px
+    // }
 
-    h3 {
-        margin-left: 130px;
-    }
+    // h3 {
+    //     margin-left: 130px;
+    // }
 }
 
 /*
@@ -998,6 +998,10 @@ footer {
     }
 
     #mobile-menu-open, #mobile-menu-close{
+        display: block;
+    }
+
+    #particles-js {
         display: block;
     }
 
